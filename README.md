@@ -51,3 +51,5 @@ My model achieves accuracy of 97.14% on my test set. (10% of initially seperated
 1. Image pre-processing: Could be a step to de-haze or adding noise an image to augment the data.
 2. Context: Since these images were cropped from a larger image, we lose some information from the surrounding crops. We can use context embeddings from the larger image to give more context to this model. This could take into account the effect of a nearby sea, river, other physical factors that are not in this image.
 3. Use bigger models to get better accuracy.
+4. Try DeepSatv2 [implementation](https://arxiv.org/abs/1911.07747).
+5. Try transfer learning from [adversial robust model](https://www.microsoft.com/en-us/research/blog/adversarial-robustness-as-a-prior-for-better-transfer-learning/) for higher accuracy.
