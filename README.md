@@ -1,6 +1,7 @@
 # EuroSAT Image Classification
 
 ## Data
+![EuroSAT dataset](eurosat.png)
 
 This data is a publically available dataset for Sentinel2 images categorised into 10 types.
 
@@ -29,9 +30,14 @@ Optimizer: RMSProp, lr = 1e-4
 
 Here I only demonstrate EfficientNetB2.
 
+![EfficientNetB0 architecture](efficientnet_arch.png)
+
 ## Results
 
 My model achieves accuracy of 97.14% on my test set. (10% of initially seperated data)
+
+![Confusion Matrix](confusion_matrix.png)
+
 
 ## Future Work and Questions
 
