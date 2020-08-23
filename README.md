@@ -32,6 +32,11 @@ Here I only demonstrate EfficientNetB2.
 
 ![EfficientNetB0 architecture](images/efficientnet_arch.png)
 
+## Usage
+
+`python predict.py image_path model_path`
+
+
 ## Results
 
 My model achieves accuracy of 97.14% on my test set. (10% of initially seperated data)
