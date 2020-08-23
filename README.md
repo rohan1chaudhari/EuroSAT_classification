@@ -34,6 +34,8 @@ Here I only demonstrate EfficientNetB2.
 
 ## Usage
 
+Download the model weights [here](https://drive.google.com/file/d/1tZ0lSkr0B8TQM6GgPxamVDS-T_A2WXtB/view?usp=sharing)
+
 `python predict.py image_path model_path`
 
 
